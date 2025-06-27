@@ -1,12 +1,77 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 📝 React Paste App
 
-Currently, two official plugins are available:
+A simple and modern **Pastebin-like application** built with **React, Redux Toolkit, and  CSS**. Users can create, view, copy, and share code/text snippets with a unique URL.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔍 Search pastes by title
+- 📝 Add, edit, and delete pastes
+- 🔗 Share paste using a unique link
+- 📋 Copy content to clipboard with one click
+- 💾 Persists pastes using Redux Toolkit and local storage (MongoDB-ready)
+- 📱 Responsive design with Tailwind CSS
+
+---
+
+## 🛠️ Tech Stack
+
+- ⚛️ **React** – UI Library
+- 🧠 **Redux Toolkit** – State Management
+- 🌐 **React Router** – Routing
+- 💅 **Tailwind CSS** – Styling
+- 🔔 **react-hot-toast** – Notifications
+- 📦 **Vite** – Fast bundling and development
+
+---
+
+## 📁 Folder Structure
+
+react-paste-app/
+├── public/
+├── src/
+│ ├── components/
+│ │ └── Paste.jsx
+│ ├── redux/
+│ │ └── pasteSlice.js
+│ ├── App.jsx
+│ └── main.jsx
+├── .gitignore
+├── package.json
+├── tailwind.config.js
+└── README.md
+
+yaml
+
+---
+
+## ⚙️ Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yashsaxena18/react-paste-app.git
+   cd react-paste-app
+Install dependencies
+
+
+npm install
+Start the development server
+
+
+npm run dev
+🧪 Future Improvements
+✅ Backend integration with MongoDB Atlas
+
+✅ User authentication (JWT)
+
+✅ Paste expiration and privacy settings
+
+📄 License
+This project is licensed under the MIT License.
+
+👤 Author
+Yash Saxena
+🔗 GitHub Profile
