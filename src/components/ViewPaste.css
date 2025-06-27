@@ -1,0 +1,63 @@
+.view-wrapper {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.view-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.view-input {
+  padding: 0.5rem;
+  border-radius: 1rem;
+  margin-top: 0.5rem;
+  border: 1px solid #d1d5db;
+  width: 100%;
+  max-width: 600px;
+  background-color: #f9fafb;
+}
+
+.view-textarea-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.view-textarea {
+  padding: 0.5rem 2.5rem 0.5rem 0.5rem; /* space for button on right */
+  border: 1px solid #a1a1aa;
+  border-radius: 0.5rem;
+  width: 100%;
+  height: 16rem;
+  background-color: #f3f4f6;
+  color: #111827;
+  resize: none;
+}
+
+.copy-btn {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  padding: 0.4rem 0.6rem;
+  font-size: 1rem;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.copy-btn:hover {
+  background-color: #b8e111;
+}
+
+.view-error {
+  color: #dc2626;
+  font-weight: 600;
+  font-size: 1.125rem;
+  padding: 1rem;
+}

@@ -1,0 +1,27 @@
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1.25rem;
+  padding: 1rem;
+  background-color: #f1f5f9;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.nav-link {
+  color: #1d4ed8;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+  background-color: #e0f2fe;
+  color: #1e3a8a;
+}
+
+.nav-link.active {
+  background-color: #bfdbfe;
+  color: #1e40af;
+}

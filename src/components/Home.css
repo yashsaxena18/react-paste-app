@@ -1,0 +1,57 @@
+.home-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+  padding: 1rem;
+}
+
+.home-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.app-name {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;   /* Center the text inside the element */
+  width: 100%;          /* Ensure it spans full width to allow centering */
+}
+
+.home-input {
+  padding: 0.5rem;
+  border-radius: 1rem;
+  margin-top: 0.5rem;
+  border: 1px solid #d1d5db;
+  width: 100%;
+  max-width: 600px;
+}
+
+.home-date {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-top: 0.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.home-button {
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  background-color: #3b82f6;
+  color: white;
+  width: fit-content;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.home-button:hover {
+  background-color: #2563eb;
+}
+
+.home-textarea {
+  padding: 0.5rem;
+  border: 1px solid #a1a1aa;
+  border-radius: 0.5rem;
+  width: 100%;
+  height: 16rem;
+}
